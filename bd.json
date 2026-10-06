@@ -1,0 +1,35 @@
+{
+  "alunos": [
+    {
+      "nome": "DiogoX",
+      "idade": 261,
+      "cursoId": 2,
+      "id": "bjysjSLSWlU"
+    },
+    {
+      "id": "3",
+      "nome": "Cristóvão",
+      "cursoId": 1,
+      "idade": 24
+    },
+    {
+      "nome": "Diogo Cópia",
+      "idade": 26,
+      "cursoId": 2,
+      "id": "bjysjSLSWlU"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "1",
+      "nome": "Engenharia Informática",
+      "tipo": "licenciatura"
+    },
+    {
+      "id": "2",
+      "nome": "Gastronomia",
+      "tipo": "licenciatura"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
