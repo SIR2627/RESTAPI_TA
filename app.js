@@ -1,11 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const cors = require('cors');
 const app = express()
 const port = 3000
 
 // ola
 dotenv.config();
+
+app.use(cors());
 
 const alunoSchema = new mongoose.Schema({
   nome: String,
