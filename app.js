@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const app = express()
 const port = 3000
 
+// ola
 dotenv.config();
 
 const alunoSchema = new mongoose.Schema({
