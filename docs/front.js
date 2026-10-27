@@ -1,5 +1,7 @@
+// https://restapi-ta.onrender.com/
 async function getAlunos() {
-        const response = await fetch("http://localhost:3000/alunos");
+        //const response = await fetch("http://localhost:3000/alunos");
+        const response = await fetch("https://restapi-ta.onrender.com/alunos");
         console.log(response);
         const alunos = await response.json();
         console.log(alunos);
@@ -30,7 +32,8 @@ async function getAlunos() {
     async function apagaAluno(e) {
         const botaoclicado = e.target;
         const alunosId = botaoclicado.dataset.id;
-        const url = `http://localhost:3000/alunos/${alunosId}`;
+        //const url = `http://localhost:3000/alunos/${alunosId}`;
+        const url = `https://restapi-ta.onrender.com/alunos/${alunosId}`;
         console.log(url);
         const response = await fetch(url,{method:"DELETE"});
         //console.log(botaoclicado.dataset.id)
